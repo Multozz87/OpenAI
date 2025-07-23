@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const OPENAI_KEY = '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'; // вставь сюда свой ключ
+const OPENAI_KEY = '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'; // вставь сюда свой ключ
 
 app.post('/proxy', async (req, res) => {
   try {
